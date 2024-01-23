@@ -1,0 +1,14 @@
+D:\playground\c#\Hackerrank\CamelCase\bin\Debug\net6.0\CamelCase.exe
+D:\playground\c#\Hackerrank\CamelCase\bin\Debug\net6.0\CamelCase.deps.json
+D:\playground\c#\Hackerrank\CamelCase\bin\Debug\net6.0\CamelCase.runtimeconfig.json
+D:\playground\c#\Hackerrank\CamelCase\bin\Debug\net6.0\CamelCase.dll
+D:\playground\c#\Hackerrank\CamelCase\bin\Debug\net6.0\CamelCase.pdb
+D:\playground\c#\Hackerrank\CamelCase\obj\Debug\net6.0\CamelCase.GeneratedMSBuildEditorConfig.editorconfig
+D:\playground\c#\Hackerrank\CamelCase\obj\Debug\net6.0\CamelCase.AssemblyInfoInputs.cache
+D:\playground\c#\Hackerrank\CamelCase\obj\Debug\net6.0\CamelCase.AssemblyInfo.cs
+D:\playground\c#\Hackerrank\CamelCase\obj\Debug\net6.0\CamelCase.csproj.CoreCompileInputs.cache
+D:\playground\c#\Hackerrank\CamelCase\obj\Debug\net6.0\CamelCase.dll
+D:\playground\c#\Hackerrank\CamelCase\obj\Debug\net6.0\refint\CamelCase.dll
+D:\playground\c#\Hackerrank\CamelCase\obj\Debug\net6.0\CamelCase.pdb
+D:\playground\c#\Hackerrank\CamelCase\obj\Debug\net6.0\CamelCase.genruntimeconfig.cache
+D:\playground\c#\Hackerrank\CamelCase\obj\Debug\net6.0\ref\CamelCase.dll

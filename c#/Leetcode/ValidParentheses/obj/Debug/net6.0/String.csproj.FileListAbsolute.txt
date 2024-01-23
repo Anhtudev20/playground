@@ -1,0 +1,14 @@
+D:\playground\c#\Leetcode\ValidParentheses\bin\Debug\net6.0\String.exe
+D:\playground\c#\Leetcode\ValidParentheses\bin\Debug\net6.0\String.deps.json
+D:\playground\c#\Leetcode\ValidParentheses\bin\Debug\net6.0\String.runtimeconfig.json
+D:\playground\c#\Leetcode\ValidParentheses\bin\Debug\net6.0\String.dll
+D:\playground\c#\Leetcode\ValidParentheses\bin\Debug\net6.0\String.pdb
+D:\playground\c#\Leetcode\ValidParentheses\obj\Debug\net6.0\String.GeneratedMSBuildEditorConfig.editorconfig
+D:\playground\c#\Leetcode\ValidParentheses\obj\Debug\net6.0\String.AssemblyInfoInputs.cache
+D:\playground\c#\Leetcode\ValidParentheses\obj\Debug\net6.0\String.AssemblyInfo.cs
+D:\playground\c#\Leetcode\ValidParentheses\obj\Debug\net6.0\String.csproj.CoreCompileInputs.cache
+D:\playground\c#\Leetcode\ValidParentheses\obj\Debug\net6.0\String.dll
+D:\playground\c#\Leetcode\ValidParentheses\obj\Debug\net6.0\refint\String.dll
+D:\playground\c#\Leetcode\ValidParentheses\obj\Debug\net6.0\String.pdb
+D:\playground\c#\Leetcode\ValidParentheses\obj\Debug\net6.0\String.genruntimeconfig.cache
+D:\playground\c#\Leetcode\ValidParentheses\obj\Debug\net6.0\ref\String.dll

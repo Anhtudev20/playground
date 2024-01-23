@@ -1,0 +1,14 @@
+D:\playground\c#\Hackerrank\warmup-ratiosOfPositiveNegativeAndZero\bin\Debug\net6.0\warmup-ratiosOfPositiveNegativeAndZero.exe
+D:\playground\c#\Hackerrank\warmup-ratiosOfPositiveNegativeAndZero\bin\Debug\net6.0\warmup-ratiosOfPositiveNegativeAndZero.deps.json
+D:\playground\c#\Hackerrank\warmup-ratiosOfPositiveNegativeAndZero\bin\Debug\net6.0\warmup-ratiosOfPositiveNegativeAndZero.runtimeconfig.json
+D:\playground\c#\Hackerrank\warmup-ratiosOfPositiveNegativeAndZero\bin\Debug\net6.0\warmup-ratiosOfPositiveNegativeAndZero.dll
+D:\playground\c#\Hackerrank\warmup-ratiosOfPositiveNegativeAndZero\bin\Debug\net6.0\warmup-ratiosOfPositiveNegativeAndZero.pdb
+D:\playground\c#\Hackerrank\warmup-ratiosOfPositiveNegativeAndZero\obj\Debug\net6.0\warmup-ratiosOfPositiveNegativeAndZero.GeneratedMSBuildEditorConfig.editorconfig
+D:\playground\c#\Hackerrank\warmup-ratiosOfPositiveNegativeAndZero\obj\Debug\net6.0\warmup-ratiosOfPositiveNegativeAndZero.AssemblyInfoInputs.cache
+D:\playground\c#\Hackerrank\warmup-ratiosOfPositiveNegativeAndZero\obj\Debug\net6.0\warmup-ratiosOfPositiveNegativeAndZero.AssemblyInfo.cs
+D:\playground\c#\Hackerrank\warmup-ratiosOfPositiveNegativeAndZero\obj\Debug\net6.0\warmup-ratiosOfPositiveNegativeAndZero.csproj.CoreCompileInputs.cache
+D:\playground\c#\Hackerrank\warmup-ratiosOfPositiveNegativeAndZero\obj\Debug\net6.0\warmup-ratiosOfPositiveNegativeAndZero.dll
+D:\playground\c#\Hackerrank\warmup-ratiosOfPositiveNegativeAndZero\obj\Debug\net6.0\refint\warmup-ratiosOfPositiveNegativeAndZero.dll
+D:\playground\c#\Hackerrank\warmup-ratiosOfPositiveNegativeAndZero\obj\Debug\net6.0\warmup-ratiosOfPositiveNegativeAndZero.pdb
+D:\playground\c#\Hackerrank\warmup-ratiosOfPositiveNegativeAndZero\obj\Debug\net6.0\warmup-ratiosOfPositiveNegativeAndZero.genruntimeconfig.cache
+D:\playground\c#\Hackerrank\warmup-ratiosOfPositiveNegativeAndZero\obj\Debug\net6.0\ref\warmup-ratiosOfPositiveNegativeAndZero.dll

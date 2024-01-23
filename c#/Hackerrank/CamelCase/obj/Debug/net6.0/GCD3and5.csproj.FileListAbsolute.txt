@@ -1,0 +1,14 @@
+D:\playground\c#\Hackerrank\CamelCase\bin\Debug\net6.0\GCD3and5.exe
+D:\playground\c#\Hackerrank\CamelCase\bin\Debug\net6.0\GCD3and5.deps.json
+D:\playground\c#\Hackerrank\CamelCase\bin\Debug\net6.0\GCD3and5.runtimeconfig.json
+D:\playground\c#\Hackerrank\CamelCase\bin\Debug\net6.0\GCD3and5.dll
+D:\playground\c#\Hackerrank\CamelCase\bin\Debug\net6.0\GCD3and5.pdb
+D:\playground\c#\Hackerrank\CamelCase\obj\Debug\net6.0\GCD3and5.GeneratedMSBuildEditorConfig.editorconfig
+D:\playground\c#\Hackerrank\CamelCase\obj\Debug\net6.0\GCD3and5.AssemblyInfoInputs.cache
+D:\playground\c#\Hackerrank\CamelCase\obj\Debug\net6.0\GCD3and5.AssemblyInfo.cs
+D:\playground\c#\Hackerrank\CamelCase\obj\Debug\net6.0\GCD3and5.csproj.CoreCompileInputs.cache
+D:\playground\c#\Hackerrank\CamelCase\obj\Debug\net6.0\GCD3and5.dll
+D:\playground\c#\Hackerrank\CamelCase\obj\Debug\net6.0\refint\GCD3and5.dll
+D:\playground\c#\Hackerrank\CamelCase\obj\Debug\net6.0\GCD3and5.pdb
+D:\playground\c#\Hackerrank\CamelCase\obj\Debug\net6.0\GCD3and5.genruntimeconfig.cache
+D:\playground\c#\Hackerrank\CamelCase\obj\Debug\net6.0\ref\GCD3and5.dll

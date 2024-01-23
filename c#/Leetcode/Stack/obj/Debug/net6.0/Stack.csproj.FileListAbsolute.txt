@@ -1,0 +1,14 @@
+D:\playground\c#\Leetcode\Stack\obj\Debug\net6.0\Stack.GeneratedMSBuildEditorConfig.editorconfig
+D:\playground\c#\Leetcode\Stack\obj\Debug\net6.0\Stack.AssemblyInfoInputs.cache
+D:\playground\c#\Leetcode\Stack\obj\Debug\net6.0\Stack.AssemblyInfo.cs
+D:\playground\c#\Leetcode\Stack\obj\Debug\net6.0\Stack.csproj.CoreCompileInputs.cache
+D:\playground\c#\Leetcode\Stack\bin\Debug\net6.0\Stack.exe
+D:\playground\c#\Leetcode\Stack\bin\Debug\net6.0\Stack.deps.json
+D:\playground\c#\Leetcode\Stack\bin\Debug\net6.0\Stack.runtimeconfig.json
+D:\playground\c#\Leetcode\Stack\bin\Debug\net6.0\Stack.dll
+D:\playground\c#\Leetcode\Stack\bin\Debug\net6.0\Stack.pdb
+D:\playground\c#\Leetcode\Stack\obj\Debug\net6.0\Stack.dll
+D:\playground\c#\Leetcode\Stack\obj\Debug\net6.0\refint\Stack.dll
+D:\playground\c#\Leetcode\Stack\obj\Debug\net6.0\Stack.pdb
+D:\playground\c#\Leetcode\Stack\obj\Debug\net6.0\Stack.genruntimeconfig.cache
+D:\playground\c#\Leetcode\Stack\obj\Debug\net6.0\ref\Stack.dll
