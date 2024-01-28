@@ -1,9 +1,32 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"net/http"
+	"strconv"
 
+	"github.com/gin-gonic/gin"
+)
+
+func reinitializePermutationHandler(c *gin.Context) {
+	// Parse 'n' parameter from the query string
+	nParam := c.Query("n")
+	n, err := strconv.Atoi(nParam)
+	if err != nil {
+		c.JSON(http.StatusBadRequest, gin.H{"error": "Invalid 'n' parameter"})
+		return
+	}
+
+	// Call the reinitializePermutation function
+	result := reinitializePermutation(n)
+
+	// Return the result as a JSON response
+	c.JSON(http.StatusOK, gin.H{"result": result})
+}
 func main() {
-
+	var router = gin.Default()
+	router.GET("/reinitializePermutationgo ", reinitializePermutationHandler)
+	router.Run(":8080")
 	fmt.Println(reinitializePermutation(6))
 }
 func finalValueAfterOperations(operations []string) int {
