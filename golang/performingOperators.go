@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+	//"fmt"
 	"net/http"
 	"strconv"
 
@@ -24,10 +24,19 @@ func reinitializePermutationHandler(c *gin.Context) {
 	c.JSON(http.StatusOK, gin.H{"result": result})
 }
 func main() {
-	var router = gin.Default()
-	router.GET("/reinitializePermutationgo ", reinitializePermutationHandler)
-	router.Run(":8080")
-	fmt.Println(reinitializePermutation(6))
+	// var router = gin.Default()
+	// router.GET("/reinitializePermutationgo ", reinitializePermutationHandler)
+	// router.Run(":8080")
+	// fmt.Println(reinitializePermutation(6))
+	http.HandleFunc("/reinitializePermutation", func(w http.ResponseWriter, r *http.Request) {
+		pathNumber := r.URL.Query().Get("n")
+		nums, err := strconv.Atoi(pathNumber)
+		if err != nil {
+			w.Write([]byte(err.Error()))
+		}
+		w.Write([]byte(strconv.Itoa(reinitializePermutation(nums))))
+	})
+	http.ListenAndServe(":8080", nil)
 }
 func finalValueAfterOperations(operations []string) int {
 	var count int = 0
