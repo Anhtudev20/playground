@@ -1,7 +1,6 @@
 package main
 
 import (
-	//"fmt"
 	"net/http"
 	"strconv"
 
@@ -23,6 +22,16 @@ func reinitializePermutationHandler(c *gin.Context) {
 	// Return the result as a JSON response
 	c.JSON(http.StatusOK, gin.H{"result": result})
 }
+
+func Print[T comparable](x T, s ...T) int {
+	for i, v := range s {
+		if v == x {
+			return i
+
+		}
+	}
+	return -1
+}
 func main() {
 	// var router = gin.Default()
 	// router.GET("/reinitializePermutationgo ", reinitializePermutationHandler)
@@ -35,6 +44,18 @@ func main() {
 			w.Write([]byte(err.Error()))
 		}
 		w.Write([]byte(strconv.Itoa(reinitializePermutation(nums))))
+	})
+	http.HandleFunc("/operations", func(w http.ResponseWriter, r *http.Request) {
+		x, _ := strconv.Atoi(r.URL.Query().Get("x"))
+		y, _ := strconv.Atoi(r.URL.Query().Get("y"))
+		sum := x + y
+		w.Write([]byte(strconv.Itoa(sum)))
+	})
+	http.HandleFunc("/findX", func(w http.ResponseWriter, r *http.Request) {
+		x, _ := strconv.Atoi(r.URL.Query().Get("x"))
+		arr := []int{1, 2, 3, 4, 5}
+		w.Write([]byte(strconv.Itoa(Print(x, arr...))))
+
 	})
 	http.ListenAndServe(":8080", nil)
 }
