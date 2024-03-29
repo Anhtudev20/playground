@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    .flute-container {
+        font-family: serif;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100px;
+        padding: 20px;
+        background-color: #ffffff;
+        border: 1px solid #3b3b3b;
+    }
+    .flute-box{
+        padding: 20px;
+        border: 1px solid black;
+        font-size: 80;
+    }
+    .flute-box button{
+        border: 0;
+        background: transparent;
+    }
+    .playing{
+        border: 3px solid yellow;
+    }
+  </style>
+  <body>
+    <div class="flute-container">
+      <div class="flute-box" data-key="65">
+        <button>A</button>
+      </div>
+      <div class="flute-box" data-key="67">
+        <button>C</button>
+      </div>
+      <div class="flute-box" data-key="68">
+        <button>D</button>
+      </div>
+      <div class="flute-box" data-key="70">
+        <button>F#</button>
+      </div>
+    </div>
+
+    <audio src="./FluteClean2_A2.wav" data-key="65"></audio>
+    <audio src="./FluteClean2_C2.wav" data-key="67"></audio>
+    <audio src="./FluteClean_D2.wav" data-key="68"></audio>
+    <audio src="./FluteClean2_F2.wav" data-key="70"></audio>
+  </body>
+  <script>
+    document.addEventListener("keydown", (event) => {
+      const audio = document.querySelector(
+        `audio[data-key="${event.keyCode}"]`
+      );
+      const key = document.querySelector(`div[data-key="${event.keyCode}"]`);
+      if(!audio){
+        return;
+      }
+     
+        key.classList.add("playing");
+        audio.play();
+     
+        audio.onended = () => {
+            key.classList.remove("playing");
+        }
+    
+    });
+
+    
+  </script>
+</html>
