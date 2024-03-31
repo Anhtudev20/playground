@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .clock-face{
+        border: 5px solid black;
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+        position: relative;
+        justify-content: center;
+
+    }
+    .hand{
+        width: 40%;
+        height: 1px;
+        position: absolute;
+        border: 3px solid black;
+        top: 50%;
+        transform-origin: 100%;
+        padding: 0%;
+        transform: rotate(90deg);
+    }
+    .min-hand{
+        width: 30%;
+        left: 16%;
+        transform: rotate(90deg);
+
+    }
+    .hour-hand{
+        width: 20%;
+        left: 26%;
+        transform: rotate(90deg);
+
+    }
+    .second-hand{
+        border: 2px solid red;
+        color: red;
+        background-color: red;
+        left: 8%;
+        transform: rotate(90deg);
+    }
+</style>
+<body>
+    <div>
+        <div class="clock-face">
+            <div class="hand hour-hand">
+            </div>
+            <div class="hand min-hand"></div>
+            <div class="hand second-hand"></div>
+        </div>
+    </div>
+</body>
+<script>
+    const secondHand = document.querySelector('.second-hand');
+    const minsHand = document.querySelector('.min-hand');
+    const hourHand = document.querySelector('.hour-hand');
+    setInterval(()=>{
+        const d = new Date();
+        secondHand.style.transform = `rotate(${Date.now()/1000*6}deg)`
+        let minute = d.getMinutes();
+        minsHand.style.transform = `rotate(${((minute/60)*360)+90}deg)`
+        let hour = d.getHours();
+        hourHand.style.transform = `rotate(${((hour / 12) * 360) + ((minute / 60) * 30) + 90}deg)`;
+    }, 1000)
+   
+</script>
+</html>
